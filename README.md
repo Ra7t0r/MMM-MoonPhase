@@ -12,8 +12,8 @@ Displays the realtime moonphase and increments the shadow daily.
 
 To install this module, navigate into `~/MagicMirror/modules` and type the following commands:
 ```
-git clone https://github.com/NolanKingdon/MMM-MagicMirror
-cd MMM-MagicMirror
+git clone https://github.com/NolanKingdon/MMM-MoonPhase
+cd MMM-MoonPhase
 npm install
 
 ```
@@ -55,4 +55,3 @@ var config = {
 | `x`              | *Optional* Width (recommended <300)               | `200`                | >0
 | `y`              | *Optional* Height (recommended <300)              | `200`                | >0
 | `alpha`          | *Optional* Visibility of dark side of moon        | `1` (Invisible)      | >=0 to <= 1
-
